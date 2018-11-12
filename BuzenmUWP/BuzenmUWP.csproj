@@ -7,7 +7,7 @@
     <ProjectGuid>{178173E9-8456-48A9-86C8-DDC69726A596}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BuzenmUWP</RootNamespace>
+    <RootNamespace>UWP</RootNamespace>
     <AssemblyName>BuzenmUWP</AssemblyName>
     <DefaultLanguage>zh-CN</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
@@ -106,7 +106,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Core.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\BuzenmUWP.rd.xml" />
   </ItemGroup>
